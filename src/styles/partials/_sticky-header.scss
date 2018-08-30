@@ -1,0 +1,66 @@
+
+
+/* hide cart meta elements by default */
+#pageContainer .cta-cart-meta {
+    display: none;
+}
+/* show cart meta elements when cart is enabled */
+#pageContainer.show-cart .cta-cart-meta {
+    display: inline-block;
+}
+
+.svg-icon {
+  width: 130px;
+  height: auto;
+}
+
+.svg-icon path,
+.svg-icon polygon,
+.svg-icon rect {
+  fill: #DA262D;
+}
+
+.cta-bar {
+  background: $white;
+  top:0;
+  z-index:99999;
+  /* position: fixed; */
+  top:0;
+  z-index:9999;
+}
+
+.cta-bar .cta-bar-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    height: 90px;
+}
+
+.cta-bar .cta-bar-flex .cta-text {
+    flex: 0 1 100%;
+}
+
+.cta-bar .cta-bar-flex .cta-phone {
+    flex: 0 0 360px;
+    white-space: nowrap;
+}
+
+.cta-bar .cta-bar-flex .cta-shop {
+    flex: 0 0 350px;
+    white-space: nowrap;
+}
+
+.button-ftr {
+    color: #ffffff;
+    background: #d9272d;
+    border-color: #d9272d;
+    border-radius: 50px;
+    color: $white !important;
+  
+    font-family: 'nexa heavy';
+    font-weight: bold;
+}
